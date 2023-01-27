@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de Texto - OneG4</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+   <div class="container">
+        <div class="logo">
+            <img class="logoA" src="imagenes/logo.png">
+            <img class="scanme" src="imagenes/frame.png">
+            <h1 class="title">Encriptador de Texto</h1>
+        </div>
+        <div class="left">
+            <input class="text-input" id="input-text" type="text" placeholder="Ingresar texto">
+            <img class="letter" src="imagenes/frame1.png">
+        </div>
+        <div class="right">
+            <img class="doll" src="imagenes/doll.png" id="ImgRight">
+            <h1 id="text1">Ningun mensaje fue encontrado</h1>
+            <textarea id="text2" name="name" rows="8" cols="80">Ingrese el texto a convertir.</textarea>
+            <button type="button" id="button-copy" name="button" onclick="copiar()">Copiar</button>
+        </div>
+        <div class="left-button">
+            <button type="button" id="button-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+   </div>
+</body>
+
+
+</html>
+
+
+
