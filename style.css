@@ -127,3 +127,9 @@ body{
     border-radius: 24px;
     display: none;
 }
+@media screen and (max-width:480px){
+     body{
+        background: red;
+     }
+    
+}
